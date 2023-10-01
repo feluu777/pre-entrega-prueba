@@ -1,0 +1,66 @@
+/*Dibujos y Galeria responsive*/
+@media (min-width: 320px) {
+
+    h2{
+        font-size: $fuente-grande;
+        text-align: center;
+        height: 70px;
+    }
+    h1{
+        height: 50px;
+        text-align: center;
+        font-size: $fuente-grande;
+    }
+    .img-d{
+        height: 100%;
+        width: 100%;
+    }
+
+    .pie{
+        height: 100px;
+    }
+
+}
+
+/*Contacto responsive*/
+@media (min-width: 320px) {
+.h1-contacto{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.h2-contacto{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .form{
+        width: 250px;
+        height: 400px;
+        padding: 5px 5px;
+        margin-left: 60px;
+    }
+
+    iframe{
+        height: 300px;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+/*Horario Responsive*/
+
+@media (min-width: 320px){
+    .tabla{
+        width: 350px;
+    }
+
+    table{
+        font-size: $fuente-chica + 5px;
+    }
+}

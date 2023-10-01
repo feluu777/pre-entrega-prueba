@@ -1,0 +1,139 @@
+/*Body*/
+
+body{
+    background-image: url(../img/local-dg.JPG);
+    @include img-fondo;
+}
+
+/*Títulos*/
+
+h1{
+    margin: $margin-titulosh1;
+    background-color: $color-primario;
+    font-size: $fuente-grande + 10px;
+    width: 200px;
+    border: solid 3px $color-terciario;
+    text-align: center;
+    background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+
+h2{
+    margin: $margin-titulosh2;
+    background-color: $color-primario;
+    font-size: $fuente-media + 20px;
+    width: 320px;
+    height: 70px;
+    border: solid 5px $color-terciario;
+    text-align: center;
+    margin-top: 150px;
+    background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+
+/*Navbar*/
+
+.navbar{
+        background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+        height: 120px;
+
+
+    .offcanvas-header{
+        background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+    }
+
+
+
+    .navbar-toggler{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .offcanvas-body{
+        background-image: url(../img/local-dg1.jpg);
+        @include img-fondo;
+    }
+
+    .dropdown-menu{
+        background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+    }
+}
+
+/*Footer*/
+
+.pie{
+    background-image: linear-gradient(to bottom, orange, rgb(255, 213, 0));
+
+    .contenedor{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 470px;
+    }
+
+    .instagram :hover{
+        color: #e43662;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        transform: rotateY(360deg);
+
+
+
+    }
+
+    .whatsapp :hover{
+        color: green;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        transform: rotateY(360deg);
+    }
+
+    .facebook :hover{
+        color: cornflowerblue;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        transform: rotateY(360deg);
+    }
+}
+
+
+/*Form contacto*/
+
+.form{
+    background-color: $color-primario;
+    margin: 100px 100px 100px 100px;
+    border: solid 5px;
+    color: $color-terciario;
+    width: 200px;
+    justify-content: center;
+
+iframe{
+    height: 700px;
+    width: 700px;
+}
+}
+
+/*Tabla*/
+
+.tabla{
+    border: solid 3px $color-secundario;
+    background-color: $color-primario;
+    width: 360px;
+    margin-left: 30px;
+}
+
+table{
+    color: $color-terciario;
+    font-size: $fuente-media;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 20px 30px;
+    border-bottom:solid $color-secundario;
+    border-right: solid $color-secundario;
+}
+
+td{
+    padding: 15px 15px;
+    border-bottom:solid $color-secundario;
+    border-right: solid $color-secundario;
+}

@@ -1,0 +1,35 @@
+/*Imagenes y carousel*/
+
+.img-dg{
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border:solid 5px orange;
+}
+
+.logo-dg{
+    height: 100px;
+    width: 100px;
+    margin: $Margin-logo;
+}
+
+.carousel-item img{
+    height: 250px;
+    width: 250px;
+    margin-left: 470px;
+    border: solid 5px orange;
+}
+
+
+.carousel-item{
+    height: 250px;
+}
+
+.carousel-control-prev-icon{
+    background-color: $color-primario;
+}
+
+.carousel-control-next-icon{
+    background-color: $color-primario;
+    }

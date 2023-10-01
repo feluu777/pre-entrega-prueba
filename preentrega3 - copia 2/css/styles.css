@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/*PALETA DE COLORES*/
+/*FUENTE PRINCIPAL*/
+/*TAMAÑOS DE FUENTES*/
+/*RESOLUCIONES DE PANTALLAS*/
+/*Margin logo navbar*/
+/*Margin de titulos*/
+/*Imagenes de fondo*/
+/*Body*/
+body {
+  background-image: url(../img/local-dg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: center;
+}
+
+/*Títulos*/
+h1 {
+  margin: 30px 15px 5px 30px;
+  background-color: orange;
+  font-size: 38px;
+  width: 200px;
+  border: solid 3px white;
+  text-align: center;
+  background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+
+h2 {
+  margin: 120px 15px 5px 30px;
+  background-color: orange;
+  font-size: 40px;
+  width: 320px;
+  height: 70px;
+  border: solid 5px white;
+  text-align: center;
+  margin-top: 150px;
+  background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+
+/*Navbar*/
+.navbar {
+  background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+  height: 120px;
+}
+.navbar .offcanvas-header {
+  background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+.navbar .navbar-toggler {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.navbar .offcanvas-body {
+  background-image: url(../img/local-dg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: center;
+}
+.navbar .dropdown-menu {
+  background-image: linear-gradient(to top, orange, rgb(255, 213, 0));
+}
+
+/*Footer*/
+.pie {
+  background-image: linear-gradient(to bottom, orange, rgb(255, 213, 0));
+}
+.pie .contenedor {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 470px;
+}
+.pie .instagram :hover {
+  color: #e43662;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+  transform: rotateY(360deg);
+}
+.pie .whatsapp :hover {
+  color: green;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+  transform: rotateY(360deg);
+}
+.pie .facebook :hover {
+  color: cornflowerblue;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+  transform: rotateY(360deg);
+}
+
+/*Form contacto*/
+.form {
+  background-color: orange;
+  margin: 100px 100px 100px 100px;
+  border: solid 5px;
+  color: white;
+  width: 200px;
+  justify-content: center;
+}
+.form iframe {
+  height: 700px;
+  width: 700px;
+}
+
+/*Tabla*/
+.tabla {
+  border: solid 3px black;
+  background-color: orange;
+  width: 360px;
+  margin-left: 30px;
+}
+
+table {
+  color: white;
+  font-size: 20px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 20px 30px;
+  border-bottom: solid black;
+  border-right: solid black;
+}
+
+td {
+  padding: 15px 15px;
+  border-bottom: solid black;
+  border-right: solid black;
+}
+
+/*Imagenes y carousel*/
+.img-dg {
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 50px;
+  border: solid 5px orange;
+}
+
+.logo-dg {
+  height: 100px;
+  width: 100px;
+  margin: 1px 1px 1px 1px;
+}
+
+.carousel-item img {
+  height: 250px;
+  width: 250px;
+  margin-left: 470px;
+  border: solid 5px orange;
+}
+
+.carousel-item {
+  height: 250px;
+}
+
+.carousel-control-prev-icon {
+  background-color: orange;
+}
+
+.carousel-control-next-icon {
+  background-color: orange;
+}
+
+/*Dibujos y Galeria responsive*/
+@media (min-width: 320px) {
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    height: 70px;
+  }
+  h1 {
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+  }
+  .img-d {
+    height: 100%;
+    width: 100%;
+  }
+  .pie {
+    height: 100px;
+  }
+}
+/*Contacto responsive*/
+@media (min-width: 320px) {
+  .h1-contacto {
+    margin-top: 200px;
+    text-align: center;
+  }
+  .h2-contacto {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .form {
+    width: 250px;
+    height: 400px;
+    padding: 5px 5px;
+    margin-left: 60px;
+  }
+  iframe {
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
+/*Horario Responsive*/
+@media (min-width: 320px) {
+  .tabla {
+    width: 350px;
+  }
+  table {
+    font-size: 19px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
